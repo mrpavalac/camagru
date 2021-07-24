@@ -1,0 +1,22 @@
+[
+   {
+     "url" : "/",
+     "method": "GET",
+     "controller": "HomeController",
+     "params": false
+   },
+  {
+    "url" : "/users/:id",
+    "method": "GET",
+    "controller": "UsersController",
+    "params": {
+      "id": "number"
+      }
+  },
+  {
+    "url" : "/users",
+    "method": "GET",
+    "controller": "UsersController",
+    "params": false
+  }
+]
